@@ -8,7 +8,7 @@ const BarCard = ({ weather, items }) => {
     <div className="  h-full bg-white mt-4 shadow-2xl rounded-lg">
       <div className=" text-4xl font-bold flex items-start m-8 pt-6 gap-3 my-8">
         <span>{`${weather.temp.toFixed()}°`}</span>
-        <img src={weather.iconURL} alt="" className=" w-10" />
+        {/* <img src={weather.iconURL} alt="" className=" w-10" /> */}
       </div>
       <LineChartBar items={items} />
       <div className=" flex items-center justify-between m-12 gap-1">
